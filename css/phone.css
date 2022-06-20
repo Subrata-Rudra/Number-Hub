@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#head_conv{
+    text-align: center;
+    margin: 20px;
+    font-size: 33px;
+    color: rgb(5, 65, 21);
+}
+#head_cal{
+    text-align: center;
+    margin: 20px;
+    font-size: 33px;
+    color: rgb(65, 9, 5);
+}
+.select{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+.input{
+    text-align: center;
+    padding: 7px;
+}
+#input_data{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: #e7e7e7;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px;
+}
+#input_data1{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: #e7e7e7;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px;
+    margin-bottom: 10px;
+    margin-right: 4px;
+}
+#input_data2{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: #e7e7e7;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px;
+}
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+#btn{
+    font-weight: bold;
+    font-size: 13px;
+    padding: 3px 10px;
+    margin: 16px;
+    border-radius: 5px;
+    background-color: rgb(8, 37, 181);
+    border: none;
+    color: white;
+    outline: none;
+}
+#btn:hover{
+    background-color: rgb(205, 99, 42);
+    cursor: pointer;
+}
+#refresh{
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin: 16px;
+    background-color: rgb(11, 154, 20);
+    color: white;
+    outline: none;
+    border: none;
+}
+#refresh:hover{
+    background-color: rgb(214, 39, 39);
+    cursor: pointer;
+}
+#calculate{
+    font-weight: bold;
+    font-size: 13px;
+    padding: 3px 10px;
+    margin: 16px;
+    border-radius: 5px;
+    background-color: rgb(2, 28, 74);
+    border: none;
+    color: white;
+    outline: none;
+}
+#calculate:hover{
+    background-color: rgb(7, 126, 57);
+    cursor: pointer;
+}
+#refresh1{
+    font-weight: bold;
+    font-size: 13px;
+    padding: 3px 10px;
+    margin: 16px;
+    border-radius: 5px;
+    background-color: rgb(93, 5, 59);
+    border: none;
+    color: white;
+    outline: none;
+}
+#refresh1:hover{
+    background-color: rgb(214, 39, 39);
+    cursor: pointer;
+}
+
+#output{
+    margin: auto;
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: #e7e7e7;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 5px;
+}
+#output p{
+    opacity: 0.5;
+}
+#from_select{
+    margin: 8px;
+    background: rgb(1, 42, 39);
+    color: white;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+#to_select{
+    margin: 8px;
+    padding: 3px 5px;
+    background: rgb(9, 3, 84);
+    color: white;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+#op_base_select{
+    margin: 8px;
+    background: rgb(3, 125, 19);
+    color: white;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+#opeartion_select{
+    margin: 8px;
+    background: rgb(0, 101, 108);
+    color: white;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+#output1{
+    margin: auto;
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: #e7e7e7;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 5px;
+}
+#output1 p{
+    opacity: 0.5;
+}
+footer{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+footer a{
+    text-decoration: none;
+}

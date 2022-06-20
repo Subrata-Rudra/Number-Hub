@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Hub</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Bhai+2&family=Kdam+Thmor+Pro&family=Open+Sans&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image" href="apple-calculator.png" />
+    <link rel="stylesheet" media="screen and (max-width: 970px)" href="css/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 533px)" href="css/phone.css">
+  </head>
+  <body>
+    <h1 id="head_conv">Number Converter</h1>
+      <div class="select">
+        <span>From:</span>
+        <select name="to" id="from_select">
+          <option value="2">Binary(Base 2)</option>
+          <option value="3">Base 3</option>
+          <option value="4">Base 4</option>
+          <option value="5">Base 5</option>
+          <option value="6">Base 6</option>
+          <option value="7">Base 7</option>
+          <option value="8">Octal(Base 8)</option>
+          <option value="9">Base 9</option>
+          <option value="10">Decimal(Base 10)</option>
+          <option value="16">Hexadecimal(Base 16)</option>
+        </select>
+        <span>To:</span>
+        <select name="to" id="to_select">
+          <option value="2">Binary(Base 2)</option>
+          <option value="3">Base 3</option>
+          <option value="4">Base 4</option>
+          <option value="5">Base 5</option>
+          <option value="6">Base 6</option>
+          <option value="7">Base 7</option>
+          <option value="8">Octal(Base 8)</option>
+          <option value="9">Base 9</option>
+          <option value="10">Decimal(Base 10)</option>
+          <option value="16">Hexadecimal(Base 16)</option>
+        </select>
+      </div>
+    </div>
+    <div class="input">
+      <input
+        type="text"
+        name="input"
+        id="input_data"
+        placeholder="Enter the number here"
+      />
+    </div>
+    <div id="output" style="user-select: all">
+        <p>Output will appear here</p>
+      </div>
+    <div class="button">
+      <button id="btn">Convert</button>
+      <button id="refresh">Reset All</button>
+    </div>
+    <br>
+    <h1 id="head_cal">Number Calculator</h1>
+    <div class="select">
+      Type:
+      <select name="to" id="op_base_select">
+        <option value="2">Binary(Base 2)</option>
+        <option value="3">Base 3</option>
+        <option value="4">Base 4</option>
+        <option value="5">Base 5</option>
+        <option value="6">Base 6</option>
+        <option value="7">Base 7</option>
+        <option value="8">Octal(Base 8)</option>
+        <option value="9">Base 9</option>
+        <option value="10">Decimal(Base 10)</option>
+        <option value="16">Hexadecimal(Base 16)</option>
+      </select>
+      Operation:
+      <select name="to" id="opeartion_select">
+        <option value="+">Addition(+)</option>
+        <option value="-">Substraction(-)</option>
+        <option value="*">Multiplication(*)</option>
+        <option value="/">Division(/)</option>
+      </select>
+    </div>
+    <div class="input">
+      <input
+        type="text"
+        name="input"
+        id="input_data1"
+        placeholder="Enter the first number"
+      />
+      <input
+        type="text"
+        name="input"
+        id="input_data2"
+        placeholder="Enter the second number"
+      />
+    </div>
+    <div id="output1" style="user-select: all">
+      <p>Output will appear here</p>
+    </div>
+    <div class="button">
+      <button id="calculate">Calculate</button>
+      <button id="refresh1">Reset All</button>
+    </div>
+    
+    <footer>
+        <p>Made with 🖤 by <a href="https://github.com/Subrata-Rudra" target="_blank">Subrata Rudra</a></p> 
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
